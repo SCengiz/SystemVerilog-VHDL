@@ -26,11 +26,11 @@ dut : mux2
         d0 <=  b"0010"; d1 <= b"0001";
         s <= '0'; wait for 100ns;
         d0 <=  b"0000"; d1 <= b"0101";
-        s <= '0'; wait for 100ns;
+        s <= '1'; wait for 100ns;
         d0 <=  b"0110"; d1 <= b"0101";
         s <= '0'; wait for 100ns;
         d0 <=  b"0111"; d1 <= b"0101";
-        s <= '0'; wait for 100ns;
+        s <= '1'; wait for 100ns;
         wait;
     end process;
 end sim;

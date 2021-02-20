@@ -13,5 +13,5 @@ end;
 
 architecture synth of mux2 is 
 begin
-    y <= in_1 when sel else in_0;
+    y <= in_1 when sel = '0' else in_0;
 end;
