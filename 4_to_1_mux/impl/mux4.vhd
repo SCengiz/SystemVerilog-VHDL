@@ -13,8 +13,8 @@ end;
 architecture synth of mux4 is 
 begin
     outt <= in_0 when sel = "00" else
-         in_1 when sel = "01" else
-         in_2 when sel = "10" else
-         in_3;
-end;
+            in_1 when sel = "01" else
+            in_2 when sel = "10" else
+            in_3;
+end; 
 
